@@ -1,0 +1,124 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: #DDD;
+  background: url('../images/racing.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.left {
+  float: left;
+  padding: 0 1.5rem 0 0;
+}
+
+.right, .small {
+  float: right;
+  margin: -1rem;
+  padding: 0 0 0 1.5rem;
+}
+
+.small {
+  padding: 0 3rem -2rem 0;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+}
+
+.intro {
+  background: white;
+  padding: 2rem;
+}
+
+.golf {
+  background: lightgrey;
+  padding: 2rem;
+}
+
+.brunch {
+  background: white;
+  padding: 2rem;
+}
+
+.karting {
+  background: lightgrey;
+  padding: 2rem;
+}
+
+.nap {
+  background: white;
+  padding: 2rem;
+}
+
+.dinner {
+  background: lightgrey;
+  padding: 2rem;
+}
+
+.contact {
+  background: white;
+  padding: 2rem;
+}
+
+.footer {
+  background: lightgrey;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+
